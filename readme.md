@@ -1,17 +1,17 @@
-﻿# 야구장 수요 증가에 따른 주변 문화시설 연계 발전 분석 및 머신러닝 기반 향후 활성화 예측
+﻿## 야구장 수요 증가에 따른 주변 문화시설 연계 발전 분석 및 머신러닝 기반 향후 활성화 예측
 
-## 📌 프로젝트 개요
+#### 📌 프로젝트 개요
 
 본 프로젝트는 대한민국 주요 야구장의 관중 수 증가 현상을 기반으로, 야구장 인근 지역의 문화시설과의 공간적, 기능적 연계 가능성을 분석하고, 전략을 도출하는 것을 목적으로 합니다.
 또한 향후 연계 발전률 예측을 통해 경제적 효과를 예측합니다.
 
 
-## 🗂️ 프로젝트 구조
+#### 🗂️ 프로젝트 구조
 
 ```
-baseball-cultural-facility-strategy/
+DA_CultureInfraWithBaseball/
 ├── data/
-│   ├── raw/            # 원본 데이터 (야구장, 문화시설, 인구 등)
+│   ├── raw/            # 원본 데이터
 │   └── processed/      # 전처리된 데이터
 │
 ├── notebooks/
@@ -40,7 +40,7 @@ baseball-cultural-facility-strategy/
 ```
 
 
-## 📊 주요 데이터셋
+#### 📊 주요 데이터셋
 
 | 출처 | 데이터 | 내용 |
 |------|--------|------|
@@ -50,7 +50,7 @@ baseball-cultural-facility-strategy/
 
 
 
-## 🛠 사용 기술
+#### 🛠 사용 기술
 
 - Python (pandas, scikit-learn, geopandas, folium, matplotlib, seaborn)
 - Jupyter Notebook
